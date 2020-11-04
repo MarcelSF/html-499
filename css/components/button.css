@@ -1,0 +1,14 @@
+.btn-hidden {
+  font-size: 16px;
+  display: none;
+  background-color: white;
+  color: rgba(0,0,0,0.8);
+  transition: 0.3s;
+  padding: 4px 8px;
+  border-radius: 5px;
+  margin: 8px;
+}
+
+.card-white:hover .btn-hidden {
+  display: inline-block;
+}

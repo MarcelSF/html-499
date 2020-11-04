@@ -1,0 +1,42 @@
+.cards-container {
+  margin-top: 24px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.card-container {
+  width: 300px;
+}
+
+.card-white {
+  padding: 8px;
+  background-color: white;
+  /* border: 1px solid rgb(240, 240, 240); */
+  box-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+  margin-bottom: 8px;
+}
+
+.card-white i {
+  color: grey;
+}
+
+.card-img {
+  height: 150px;
+  width: 100%;
+  background-size: cover;
+  background-image: url("https://source.unsplash.com/random");
+}
+
+.card-white .list-inline {
+  margin: 4px 0;
+  text-align: right;
+  font-size: 20px;
+}
+
+.card-user {
+  display: flex;
+  align-items: center;
+}
+
+
+
